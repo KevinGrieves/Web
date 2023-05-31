@@ -1,24 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HTML Divisions</title>
+	<title>HTML Divisions with Semantic Tags</title>
 </head>
 <body>
 
+<header>
+<div style="width:100%; background:aquamarine; text-align: center;">
+	<h1>Heading</h1>
+</div>
+</header>
 
-<div style="width:100%; background:yellow;">
-	<h2>Heading and navigation bar</h2>
+<nav>
+<div style="width:100%; background:lightgreen;">
+	<h2>Navigation Bar</h2>
+</div>
+</nav>
+
+<div style="width:100%;">
+		<aside>
+		<div style="float:left; width:20%; text-align: center; background:yellow;">
+			<h2>Aside</h2>
+		</div>
+		</aside>
+		<main>
+		<div style="float:right; width:80%;">
+			<section>
+			<div style="background:lightcyan;">
+				<h2>Section</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			</section>
+			<article>
+			<div style="background:lightblue;">
+				<h2>Article</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			</article>
+		</div>
+		</main>
 </div>
 
-<div style="float:left; width:200px; background:lightblue;">
-	<h2>Index</h2>
+<footer>
+<div style="clear:both; width:100%; background:lightgreen; text-align: center;">
+	<h2>Footer</h2>
 </div>
-
-<div style="float:left; background:lightgreen;">
-	<h2>Content</h2>
-	<p>How can we improve this design?</p>
-</div>
-
+</footer>
 
 </body>
 </html>
